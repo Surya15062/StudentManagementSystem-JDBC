@@ -1,0 +1,36 @@
+Why use throws in DAO?
+  > DAO focuses only on database operations.
+  > Error handling responsibility is shifted to higher layers to maintain separation of concerns.
+
+Why did you use throws instead of handling inside DAO?
+  > I propagated the exception to the service/controller layer to maintain separation of concerns.
+  > DAO should focus only on database operations, and higher layers should decide how to handle errors.
+
+Why use try-with-resources?
+  > It automatically closes Connection, Statement, and ResultSet, preventing resource leaks and improving reliability.
+
+Why handle exception in Main instead of DAO?
+  > DAO focuses only on database logic.
+  > Error handling is moved to higher layer to maintain layered architecture and separation of concerns.
+
+Explain this loop.
+  > This is an enhanced for-loop used to iterate through a List of Student objects.
+  > For each Student object, we call getter methods to retrieve its fields and print them in formatted form.
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Explain your Student Management System?
+   > It is a console-based CRUD application developed using Java and JDBC.
+   > It follows DAO architecture and interacts with a MySQL database to manage student records.
+
+What operations did you implement?
+   > Insert, Select, Update, Delete using PreparedStatement.
+
+Why did you use DAO pattern?
+   > To separate database logic from business logic and maintain clean architecture.
+
+Why did you use throws instead of try-catch inside DAO?
+   > To propagate exceptions to higher layers and maintain separation of concerns.
+
+-----------------------------------------------------------------------------------------------------------------------
+
