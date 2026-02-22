@@ -28,3 +28,24 @@ This project follows the **DAO (Data Access Object) architecture** to maintain c
 ---
 
 ## 🗂 Project Structure
+
+```
+StudentManagementSystem
+│
+├── src
+│   └── com.studentmanagement
+│       ├── model
+│       │   └── Student.java
+│       ├── dao
+│       │   └── StudentDAO.java
+│       ├── util
+│       │   └── DBConnection.java
+│       └── main
+│           └── MainApp.java
+│
+├── database
+│   └── students.sql
+│
+└── README.md
+```
+
